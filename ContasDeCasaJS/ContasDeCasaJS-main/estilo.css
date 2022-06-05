@@ -1,0 +1,49 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 315px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.493) 5px 5px 10px ;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.493) 5px 5px 10px ;
+
+}
+.colum{
+    padding: 40px;
+    column-count: 2;
+}
+div{
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    font: normal 15pt Arial;
+    box-shadow: rgba(0, 0, 0, 0.493) 2px 2px 10px;
+    text-align: center;
+
+}
+section#result{
+    margin-top: 10px;
+}
+div#res{
+    border-radius: 10px;
+    background-color: azure;
+    font: bold 15pt Arial;
+    box-shadow: rgba(0, 0, 0, 0.493) 2px 2px 10px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

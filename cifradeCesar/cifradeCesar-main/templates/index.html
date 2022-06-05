@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Cifra de Cesar</title>
+</head>
+<body>
+    <div class="container">
+        <form method="get" target="target">
+            <h1>Cifra de Cesar</h1>
+                <div class="content">
+                    <input type="text" name="frase" placeholder="Palavra">
+                </div>
+                <div class="key">
+                    <input type="number" name="salto" placeholder="Chave">
+                    <input type="submit" style="cursor: pointer;" value="CIFRAR" formaction="/cifrar">
+                    <input type="submit" style="cursor: pointer;" value="DECIFRAR" formaction="/decifrar">
+                </div>
+                <div class="response">
+                    <iframe name="target" frameborder="0" scrolling="no">
+                        <!--Aqui vai a resposta!!-->
+                    </iframe>
+                </div>
+        </form>
+    </div>
+</body>
+</html>

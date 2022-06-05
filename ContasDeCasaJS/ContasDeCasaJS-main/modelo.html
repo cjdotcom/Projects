@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas de Casa</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Contas de Casa</h1>
+    </header>
+    <section class="colum">
+        <div>LUZ
+            <p>
+                <input type="number" name="numluz" id="numluz" placeholder="Conta de luz...">
+            </p>
+        </div>
+        <div>AGUA
+            <p>
+                <input type="number" name="numagua" id="numagua" placeholder="Conta de agua...">
+            </p>
+        </div>
+        <p>
+            <input type="button" value="CALCULAR" onclick="somar()">
+        </p>
+        <div>INTERNET
+            <p>
+                <input type="number" name="numnet" id="numnet" placeholder="Conta da NET...">
+            </p>
+        </div>
+        <div>IPTU
+            <p>
+                <input type="number" name="numiptu" id="numiptu" placeholder="Conta de IPTU...">
+            </p>
+        </div>
+    </section>
+    <section id="result">
+        <div id="res">
+            calculando...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Cejottax</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
