@@ -7,6 +7,8 @@
     <meta property="og:title" content="Portfólio Gabriel"/>
     <meta property="og:image" content="{{ url_for('static', filename='styles/images/perfil.jpg') }}"/>
     <meta property="og:url" content="https://gabrielhsilva.herokuapp.com/"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
     <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
     <title>Portfólio Gabriel</title>
@@ -34,6 +36,13 @@
                 </div>
             </div>
         </div>
+        <label for="checkbox1" class="toggler">
+            <input type="checkbox" id="checkbox1">
+            <span class="ball"></span>
+            <i class="ri-sun-line sun"></i>
+            <i class="ri-moon-line moon"></i>
+            
+        </label>
         <h1>Gabriel H Silva</h1>
         <h2>Python Developer</h2>
         <div class="social-media">
@@ -41,6 +50,7 @@
             <a href="https://github.com/cjdotcom" target="_blank">Github</a>
         </div>
     </header>
+    
     <h1 class="sumario">Projetos</h1>
     <div class="linha-h"></div>
     <main class="container">
@@ -107,6 +117,12 @@
             }
         }
         
+        const $html = document.querySelector('html')
+        const $checkbox = document.querySelector('#checkbox1')
+
+        $checkbox.addEventListener('change', function() {
+            $html.classList.toggle('dark-mode')
+        })
     </script>
 </body>
 </html>
