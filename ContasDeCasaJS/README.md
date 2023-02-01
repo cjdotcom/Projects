@@ -1,7 +1,5 @@
 # Contas de Casa
 
-https://contasdecasa.herokuapp.com/
-
 [![Sem-t-tulo.png](https://i.postimg.cc/668Yd7TH/Sem-t-tulo.png)](https://postimg.cc/mhGY4gYM)
 
 
